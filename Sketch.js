@@ -2,7 +2,7 @@ var ls, i;
 var step = 512;
 
 function setup() {
-	createCanvas(windowWidth - 50, windowHeight - 50);
+	createCanvas(windowWidth , windowHeight );
 	background(200);
 	angleMode(DEGREES);
 
@@ -14,7 +14,7 @@ function setup() {
 	ls.addRule('Y', '-FX-Y');
 	ls.setAxiom('FX');
 
-	ls.runfor(13);
+	ls.runfor(12);
 	ls.draw();
 
 }

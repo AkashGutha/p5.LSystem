@@ -3,4 +3,4 @@
 a p5 addon library to make LSystem creation fun and easy.
 
 an example built using this library
-![](images/img.png)
+![](images/Img.png)
